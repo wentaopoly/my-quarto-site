@@ -1,0 +1,808 @@
+[
+  {
+    "id": 0,
+    "chapter": "Unknown",
+    "text_length": 1822,
+    "stats": {
+      "num_entities": 8,
+      "num_relationships": 6,
+      "num_locations": 3,
+      "num_characters": 3,
+      "num_objects": 2,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 1,
+    "chapter": "Unknown",
+    "text_length": 2358,
+    "stats": {
+      "num_entities": 15,
+      "num_relationships": 16,
+      "num_locations": 5,
+      "num_characters": 2,
+      "num_objects": 5,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 2,
+    "chapter": "Unknown",
+    "text_length": 2353,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 12,
+      "num_locations": 2,
+      "num_characters": 5,
+      "num_objects": 5,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 3,
+    "chapter": "Unknown",
+    "text_length": 2230,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 9,
+      "num_locations": 3,
+      "num_characters": 1,
+      "num_objects": 4,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 4,
+    "chapter": "Unknown",
+    "text_length": 2162,
+    "stats": {
+      "num_entities": 10,
+      "num_relationships": 9,
+      "num_locations": 1,
+      "num_characters": 1,
+      "num_objects": 6,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 5,
+    "chapter": "Unknown",
+    "text_length": 2331,
+    "stats": {
+      "num_entities": 14,
+      "num_relationships": 11,
+      "num_locations": 6,
+      "num_characters": 2,
+      "num_objects": 4,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 6,
+    "chapter": "Unknown",
+    "text_length": 2378,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 12,
+      "num_locations": 2,
+      "num_characters": 3,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 7,
+    "chapter": "Unknown",
+    "text_length": 1897,
+    "stats": {
+      "num_entities": 15,
+      "num_relationships": 13,
+      "num_locations": 3,
+      "num_characters": 4,
+      "num_objects": 7,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 8,
+    "chapter": "Unknown",
+    "text_length": 2430,
+    "stats": {
+      "num_entities": 15,
+      "num_relationships": 15,
+      "num_locations": 5,
+      "num_characters": 2,
+      "num_objects": 7,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 9,
+    "chapter": "Unknown",
+    "text_length": 2470,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 16,
+      "num_locations": 2,
+      "num_characters": 7,
+      "num_objects": 0,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 10,
+    "chapter": "Unknown",
+    "text_length": 2443,
+    "stats": {
+      "num_entities": 17,
+      "num_relationships": 21,
+      "num_locations": 3,
+      "num_characters": 6,
+      "num_objects": 0,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 11,
+    "chapter": "Unknown",
+    "text_length": 2487,
+    "stats": {
+      "num_entities": 8,
+      "num_relationships": 9,
+      "num_locations": 0,
+      "num_characters": 5,
+      "num_objects": 2,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 12,
+    "chapter": "Unknown",
+    "text_length": 2377,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 13,
+    "chapter": "Unknown",
+    "text_length": 1992,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 9,
+      "num_locations": 0,
+      "num_characters": 8,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 14,
+    "chapter": "Unknown",
+    "text_length": 2000,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 3,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 15,
+    "chapter": "Unknown",
+    "text_length": 2444,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 11,
+      "num_locations": 3,
+      "num_characters": 3,
+      "num_objects": 3,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 16,
+    "chapter": "Unknown",
+    "text_length": 2161,
+    "stats": {
+      "num_entities": 10,
+      "num_relationships": 9,
+      "num_locations": 2,
+      "num_characters": 3,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 17,
+    "chapter": "Unknown",
+    "text_length": 2494,
+    "stats": {
+      "num_entities": 17,
+      "num_relationships": 15,
+      "num_locations": 4,
+      "num_characters": 4,
+      "num_objects": 7,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 18,
+    "chapter": "Unknown",
+    "text_length": 2469,
+    "stats": {
+      "num_entities": 14,
+      "num_relationships": 13,
+      "num_locations": 3,
+      "num_characters": 5,
+      "num_objects": 6,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 19,
+    "chapter": "Unknown",
+    "text_length": 2327,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 11,
+      "num_locations": 1,
+      "num_characters": 3,
+      "num_objects": 5,
+      "num_events": 8
+    }
+  },
+  {
+    "id": 20,
+    "chapter": "Unknown",
+    "text_length": 2406,
+    "stats": {
+      "num_entities": 5,
+      "num_relationships": 5,
+      "num_locations": 0,
+      "num_characters": 2,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 21,
+    "chapter": "Unknown",
+    "text_length": 2487,
+    "stats": {
+      "num_entities": 8,
+      "num_relationships": 11,
+      "num_locations": 0,
+      "num_characters": 4,
+      "num_objects": 1,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 22,
+    "chapter": "Unknown",
+    "text_length": 2390,
+    "stats": {
+      "num_entities": 5,
+      "num_relationships": 7,
+      "num_locations": 0,
+      "num_characters": 2,
+      "num_objects": 2,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 23,
+    "chapter": "Unknown",
+    "text_length": 2225,
+    "stats": {
+      "num_entities": 6,
+      "num_relationships": 7,
+      "num_locations": 1,
+      "num_characters": 2,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 24,
+    "chapter": "Unknown",
+    "text_length": 2389,
+    "stats": {
+      "num_entities": 6,
+      "num_relationships": 6,
+      "num_locations": 1,
+      "num_characters": 3,
+      "num_objects": 1,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 25,
+    "chapter": "Unknown",
+    "text_length": 2411,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 11,
+      "num_locations": 2,
+      "num_characters": 5,
+      "num_objects": 3,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 26,
+    "chapter": "Unknown",
+    "text_length": 2475,
+    "stats": {
+      "num_entities": 17,
+      "num_relationships": 19,
+      "num_locations": 4,
+      "num_characters": 6,
+      "num_objects": 6,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 27,
+    "chapter": "Unknown",
+    "text_length": 2223,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 14,
+      "num_locations": 1,
+      "num_characters": 4,
+      "num_objects": 5,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 28,
+    "chapter": "Unknown",
+    "text_length": 2332,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 6,
+      "num_locations": 2,
+      "num_characters": 6,
+      "num_objects": 1,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 29,
+    "chapter": "Unknown",
+    "text_length": 2447,
+    "stats": {
+      "num_entities": 10,
+      "num_relationships": 9,
+      "num_locations": 2,
+      "num_characters": 6,
+      "num_objects": 1,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 30,
+    "chapter": "Unknown",
+    "text_length": 2368,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 12,
+      "num_locations": 2,
+      "num_characters": 6,
+      "num_objects": 4,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 31,
+    "chapter": "Unknown",
+    "text_length": 2469,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 18,
+      "num_locations": 0,
+      "num_characters": 4,
+      "num_objects": 6,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 32,
+    "chapter": "Unknown",
+    "text_length": 2126,
+    "stats": {
+      "num_entities": 7,
+      "num_relationships": 10,
+      "num_locations": 0,
+      "num_characters": 4,
+      "num_objects": 1,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 33,
+    "chapter": "Unknown",
+    "text_length": 2490,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 19,
+      "num_locations": 0,
+      "num_characters": 5,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 34,
+    "chapter": "Unknown",
+    "text_length": 2357,
+    "stats": {
+      "num_entities": 10,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 7,
+      "num_objects": 1,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 35,
+    "chapter": "Unknown",
+    "text_length": 2394,
+    "stats": {
+      "num_entities": 14,
+      "num_relationships": 22,
+      "num_locations": 2,
+      "num_characters": 4,
+      "num_objects": 5,
+      "num_events": 8
+    }
+  },
+  {
+    "id": 36,
+    "chapter": "Unknown",
+    "text_length": 2346,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 19,
+      "num_locations": 3,
+      "num_characters": 6,
+      "num_objects": 6,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 37,
+    "chapter": "Unknown",
+    "text_length": 2486,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 20,
+      "num_locations": 0,
+      "num_characters": 6,
+      "num_objects": 8,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 38,
+    "chapter": "Unknown",
+    "text_length": 2165,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 9,
+      "num_locations": 0,
+      "num_characters": 8,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 39,
+    "chapter": "Unknown",
+    "text_length": 2423,
+    "stats": {
+      "num_entities": 10,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 40,
+    "chapter": "Unknown",
+    "text_length": 2161,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 11,
+      "num_locations": 0,
+      "num_characters": 4,
+      "num_objects": 3,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 41,
+    "chapter": "Unknown",
+    "text_length": 2383,
+    "stats": {
+      "num_entities": 15,
+      "num_relationships": 17,
+      "num_locations": 2,
+      "num_characters": 7,
+      "num_objects": 2,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 42,
+    "chapter": "Unknown",
+    "text_length": 2276,
+    "stats": {
+      "num_entities": 15,
+      "num_relationships": 12,
+      "num_locations": 1,
+      "num_characters": 6,
+      "num_objects": 6,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 43,
+    "chapter": "Unknown",
+    "text_length": 2431,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 2,
+      "num_objects": 2,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 44,
+    "chapter": "Unknown",
+    "text_length": 2046,
+    "stats": {
+      "num_entities": 8,
+      "num_relationships": 10,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 1,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 45,
+    "chapter": "Unknown",
+    "text_length": 2327,
+    "stats": {
+      "num_entities": 9,
+      "num_relationships": 7,
+      "num_locations": 0,
+      "num_characters": 5,
+      "num_objects": 1,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 46,
+    "chapter": "Unknown",
+    "text_length": 2406,
+    "stats": {
+      "num_entities": 14,
+      "num_relationships": 17,
+      "num_locations": 1,
+      "num_characters": 4,
+      "num_objects": 0,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 47,
+    "chapter": "Unknown",
+    "text_length": 2482,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 15,
+      "num_locations": 2,
+      "num_characters": 5,
+      "num_objects": 0,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 48,
+    "chapter": "Unknown",
+    "text_length": 2271,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 14,
+      "num_locations": 1,
+      "num_characters": 9,
+      "num_objects": 1,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 49,
+    "chapter": "Unknown",
+    "text_length": 2409,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 10,
+      "num_locations": 3,
+      "num_characters": 5,
+      "num_objects": 4,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 50,
+    "chapter": "Unknown",
+    "text_length": 2416,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 10,
+      "num_locations": 0,
+      "num_characters": 7,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 51,
+    "chapter": "Unknown",
+    "text_length": 2285,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 12,
+      "num_locations": 1,
+      "num_characters": 7,
+      "num_objects": 2,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 52,
+    "chapter": "Unknown",
+    "text_length": 2344,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 14,
+      "num_locations": 0,
+      "num_characters": 6,
+      "num_objects": 7,
+      "num_events": 3
+    }
+  },
+  {
+    "id": 53,
+    "chapter": "Unknown",
+    "text_length": 2424,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 21,
+      "num_locations": 1,
+      "num_characters": 7,
+      "num_objects": 5,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 54,
+    "chapter": "Unknown",
+    "text_length": 2216,
+    "stats": {
+      "num_entities": 18,
+      "num_relationships": 28,
+      "num_locations": 0,
+      "num_characters": 7,
+      "num_objects": 5,
+      "num_events": 6
+    }
+  },
+  {
+    "id": 55,
+    "chapter": "Unknown",
+    "text_length": 2466,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 16,
+      "num_locations": 1,
+      "num_characters": 7,
+      "num_objects": 3,
+      "num_events": 7
+    }
+  },
+  {
+    "id": 56,
+    "chapter": "Unknown",
+    "text_length": 2133,
+    "stats": {
+      "num_entities": 13,
+      "num_relationships": 12,
+      "num_locations": 2,
+      "num_characters": 8,
+      "num_objects": 2,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 57,
+    "chapter": "Unknown",
+    "text_length": 2491,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 12,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 2,
+      "num_events": 4
+    }
+  },
+  {
+    "id": 58,
+    "chapter": "Unknown",
+    "text_length": 2467,
+    "stats": {
+      "num_entities": 16,
+      "num_relationships": 15,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 59,
+    "chapter": "Unknown",
+    "text_length": 2265,
+    "stats": {
+      "num_entities": 12,
+      "num_relationships": 21,
+      "num_locations": 0,
+      "num_characters": 5,
+      "num_objects": 3,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 60,
+    "chapter": "Unknown",
+    "text_length": 2113,
+    "stats": {
+      "num_entities": 11,
+      "num_relationships": 11,
+      "num_locations": 1,
+      "num_characters": 5,
+      "num_objects": 4,
+      "num_events": 5
+    }
+  },
+  {
+    "id": 61,
+    "chapter": "Unknown",
+    "text_length": 2295,
+    "stats": {
+      "num_entities": 21,
+      "num_relationships": 21,
+      "num_locations": 2,
+      "num_characters": 13,
+      "num_objects": 4,
+      "num_events": 3
+    }
+  }
+]

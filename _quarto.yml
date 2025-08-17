@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Alice in Wonderland KG"
+  
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: false
+
+execute:
+  echo: false  # 不显示代码，只显示结果
+  warning: false
+
+filters:
+  - marimo-team/marimo

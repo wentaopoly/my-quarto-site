@@ -1,0 +1,216 @@
+---
+title: "Alice in Wonderland - Knowledge Graph Visualization"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-title: "📚 Chunks Navigation"
+execute:
+  echo: false
+filters:
+  - marimo-team/marimo
+---
+
+# 📚 Knowledge Graph Explorer
+
+```{python .marimo}
+import marimo as mo
+import json
+from pathlib import Path
+import graphviz
+from graphviz.backend import ExecutableNotFound
+
+DATA_PATH = Path("data/all_chunks.json")
+
+# Load JSON data
+if not DATA_PATH.exists():
+    raise FileNotFoundError(f"Could not find {DATA_PATH.resolve()}")
+with open(DATA_PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+chunks = data.get("chunks", [])
+
+# Helper functions
+def _two_line_label(node_type: str, name: str) -> str:
+    t = (node_type or "").upper().strip()
+    n = (name or "").strip()
+    if not t:
+        return n
+    return f"{t}\\n{n}"
+
+def normalize_from_kg(chunk: dict):
+    kg = chunk.get("kg", {}) or {}
+    entities = kg.get("entities", []) or []
+    rels = kg.get("relationships", []) or []
+    nodes = []
+    for e in entities:
+        nid = str(e.get("id", e.get("name", "")))
+        nlabel = _two_line_label(e.get("type", ""), e.get("name", ""))
+        nodes.append({"id": nid, "label": nlabel, "type": e.get("type", "")})
+    edges = []
+    for r in rels:
+        src = str(r.get("source"))
+        tgt = str(r.get("target"))
+        lab = r.get("type", r.get("label", "")) or ""
+        undirected = any(k in lab.lower() for k in ["correlate", "independent", "married"])
+        edges.append({"source": src, "target": tgt, "label": lab, "undirected": undirected})
+    return nodes, edges
+
+def normalize_from_arguments(obj: dict):
+    args = (obj or {}).get("arguments", {})
+    raw_nodes = args.get("nodes", []) or []
+    raw_edges = args.get("edges", []) or []
+    nodes = []
+    for idx, n in enumerate(raw_nodes):
+        label = n.get("label", "")
+        if ":" in label:
+            t, name = label.split(":", 1)
+            nlabel = _two_line_label(t, name)
+            ntype = t
+        else:
+            nlabel = label
+            ntype = ""
+        nodes.append({"id": f"n{idx}", "label": nlabel, "type": ntype})
+    def idx_to_id(one_based_idx: int) -> str:
+        i0 = int(one_based_idx) - 1
+        return f"n{i0}"
+    edges = []
+    for e in raw_edges:
+        src = idx_to_id(e.get("source"))
+        tgt = idx_to_id(e.get("target"))
+        lab = e.get("type", e.get("label", "")) or ""
+        undirected = any(k in lab.lower() for k in ["correlate", "independent", "married"])
+        edges.append({"source": src, "target": tgt, "label": lab, "undirected": undirected})
+    return nodes, edges
+
+def extract_nodes_edges(chunk: dict):
+    kg = chunk.get("kg")
+    if isinstance(kg, dict) and (kg.get("entities") or kg.get("relationships")):
+        return normalize_from_kg(chunk)
+    resp = chunk.get("response_json")
+    if isinstance(resp, dict) and isinstance(resp.get("arguments"), dict):
+        return normalize_from_arguments(resp)
+    return [], []
+
+def render_graph_svg(nodes, edges):
+    if not nodes:
+        return "<div style='color:#666; text-align:center; padding:20px;'>*No graph data available*</div>"
+    dot = graphviz.Digraph("knowledge-graph", engine="dot")
+    dot.attr("graph", splines="spline", bgcolor="white")
+    dot.attr("node", shape="circle", style="filled", fillcolor="white", color="black", fontname="Times-Roman", fontsize="11", penwidth="1.8")
+    dot.attr("edge", color="black", fontname="Times-Roman", fontsize="10")
+    shape_map = {
+        "PERSON": "circle", "CHARACTER": "circle", "CREATURE": "ellipse",
+        "LOCATION": "ellipse", "OBJECT": "box", "CONCEPT": "diamond",
+        "AWARD": "circle", "DISCOVERY": "circle", "EVENT": "ellipse",
+    }
+    id_set = set()
+    for n in nodes:
+        nid = str(n["id"])
+        lbl = n.get("label", "")
+        ntype = (n.get("type") or "").upper()
+        shape = shape_map.get(ntype, "ellipse")
+        if ntype in {"AWARD", "DISCOVERY"}:
+            dot.node(nid, lbl, shape=shape, penwidth="2.2")
+        else:
+            dot.node(nid, lbl, shape=shape)
+        id_set.add(nid)
+    for e in edges:
+        s = str(e["source"])
+        t = str(e["target"])
+        if s not in id_set or t not in id_set:
+            continue
+        lab = e.get("label", "")
+        if e.get("undirected"):
+            dot.edge(s, t, dir="none", label=lab)
+        else:
+            dot.edge(s, t, label=lab)
+    try:
+        svg = dot.pipe(format="svg").decode("utf-8")
+        return svg
+    except ExecutableNotFound:
+        return "<b>Graphviz not found.</b> Please install graphviz."
+
+mo.md(f"✅ Loaded **{len(chunks)}** chunks from the dataset.")
+```
+
+```{python .marimo}
+# 创建一个简单的导航菜单
+nav_html = """
+<div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 15px; margin: 20px 0;">
+    <h3 style="margin-top:0;">🗂️ Quick Navigation</h3>
+    <p>Click on any chunk below to jump to it:</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+"""
+
+for i, chunk in enumerate(chunks):
+    cid = chunk.get("id", i)
+    chapter = chunk.get("chapter", "?")
+    # 创建可点击的按钮
+    nav_html += f'<a href="#chunk-{cid}" style="text-decoration:none;"><button style="padding:5px 10px; background:#007bff; color:white; border:none; border-radius:4px; cursor:pointer;">Chunk {cid}</button></a>'
+
+nav_html += """
+    </div>
+</div>
+"""
+
+mo.Html(nav_html)
+```
+
+```{python .marimo}
+# 显示所有chunks的内容
+import marimo as mo
+
+all_content = []
+
+for i, chunk in enumerate(chunks):
+    cid = chunk.get("id", i)
+    chapter = chunk.get("chapter", "?")
+    
+    # 创建锚点
+    anchor = f'<div id="chunk-{cid}" style="scroll-margin-top: 60px;"></div>'
+    
+    # 创建标题
+    title_html = f'<h2 style="color:#333; border-bottom:2px solid #007bff; padding-bottom:10px;">Chunk {cid} - {chapter}</h2>'
+    
+    # 文本内容
+    text_raw = str(chunk.get("text", ""))
+    text_formatted = text_raw.replace("\n\n", "</p><p>").replace("\n", " ")
+    text_html = f"""
+    <div style="background: #f8f9fa; border-left: 4px solid #28a745; border-radius: 5px; padding: 15px; margin: 15px 0;">
+        <h4 style="margin-top:0; color:#28a745;">📖 Text Content</h4>
+        <div style="max-height: 200px; overflow-y: auto; line-height: 1.6; font-family: Georgia, serif; color: #555;">
+            <p>{text_formatted}</p>
+        </div>
+    </div>
+    """
+    
+    # 知识图谱
+    nodes, edges = extract_nodes_edges(chunk)
+    svg = render_graph_svg(nodes, edges)
+    graph_html = f"""
+    <div style="background: white; border: 1px solid #dee2e6; border-radius: 5px; padding: 15px; margin: 15px 0;">
+        <h4 style="margin-top:0; color:#007bff;">🕸️ Knowledge Graph</h4>
+        <div style="min-height:200px;">
+            {svg}
+        </div>
+    </div>
+    """
+    
+    # 返回顶部按钮
+    back_to_top = '<div style="text-align:right; margin:20px 0;"><a href="#" style="color:#007bff; text-decoration:none;">↑ Back to top</a></div>'
+    
+    # 分隔线
+    if i < len(chunks) - 1:
+        separator = '<hr style="margin: 40px 0; border: none; border-top: 1px solid #dee2e6;">'
+    else:
+        separator = ''
+    
+    # 组合内容
+    chunk_html = anchor + title_html + text_html + graph_html + back_to_top + separator
+    all_content.append(chunk_html)
+
+# 显示所有内容
+mo.Html(''.join(all_content))
+```

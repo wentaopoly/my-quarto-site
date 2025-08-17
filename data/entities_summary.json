@@ -1,0 +1,1450 @@
+{
+  "total_entities": 742,
+  "total_unique_locations": 54,
+  "total_unique_characters": 86,
+  "entities": [
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist, a curious and imaginative girl.",
+      "chunk_id": 0
+    },
+    {
+      "id": 1,
+      "name": "White Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "White Rabbit",
+        "Rabbit"
+      ],
+      "description": "A white rabbit with pink eyes that is late and checks its watch.",
+      "chunk_id": 0
+    },
+    {
+      "id": 2,
+      "name": "Alice's Sister",
+      "type": "PERSON",
+      "mentions": [
+        "her sister"
+      ],
+      "description": "Alice's sibling who is reading a book.",
+      "chunk_id": 0
+    },
+    {
+      "id": 3,
+      "name": "Book",
+      "type": "OBJECT",
+      "mentions": [
+        "book"
+      ],
+      "description": "A book without pictures or conversations that Alice finds uninteresting.",
+      "chunk_id": 0
+    },
+    {
+      "id": 4,
+      "name": "Watch",
+      "type": "OBJECT",
+      "mentions": [
+        "watch"
+      ],
+      "description": "A timepiece carried by the White Rabbit.",
+      "chunk_id": 0
+    },
+    {
+      "id": 5,
+      "name": "Rabbit-Hole",
+      "type": "LOCATION",
+      "mentions": [
+        "rabbit-hole"
+      ],
+      "description": "A deep hole under the hedge that Alice falls into.",
+      "chunk_id": 0
+    },
+    {
+      "id": 6,
+      "name": "Hedge",
+      "type": "LOCATION",
+      "mentions": [
+        "hedge"
+      ],
+      "description": "A natural barrier under which the rabbit-hole is located.",
+      "chunk_id": 0
+    },
+    {
+      "id": 7,
+      "name": "Well",
+      "type": "LOCATION",
+      "mentions": [
+        "deep well"
+      ],
+      "description": "The destination of the rabbit-hole where Alice falls.",
+      "chunk_id": 0
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist of the story, curious and adventurous.",
+      "chunk_id": 1
+    },
+    {
+      "id": 1,
+      "name": "Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "rabbit"
+      ],
+      "description": "A creature that Alice follows down the rabbit-hole.",
+      "chunk_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Rabbit-Hole",
+      "type": "LOCATION",
+      "mentions": [
+        "rabbit-hole",
+        "large rabbit-hole"
+      ],
+      "description": "A tunnel-like hole under the hedge that Alice follows the rabbit into.",
+      "chunk_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Well",
+      "type": "LOCATION",
+      "mentions": [
+        "well",
+        "very deep well"
+      ],
+      "description": "A deep well that Alice falls into after entering the rabbit-hole.",
+      "chunk_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Jar",
+      "type": "OBJECT",
+      "mentions": [
+        "jar",
+        "ORANGE MARMALADE jar"
+      ],
+      "description": "An empty jar labeled 'ORANGE MARMALADE' found in the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Cupboard",
+      "type": "OBJECT",
+      "mentions": [
+        "cupboards"
+      ],
+      "description": "Storage units found on the sides of the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Book-Shelf",
+      "type": "OBJECT",
+      "mentions": [
+        "book-shelves"
+      ],
+      "description": "Shelves containing books found on the sides of the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Map",
+      "type": "OBJECT",
+      "mentions": [
+        "maps"
+      ],
+      "description": "Maps hung on pegs in the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Picture",
+      "type": "OBJECT",
+      "mentions": [
+        "pictures"
+      ],
+      "description": "Pictures hung on pegs in the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Schoolroom",
+      "type": "LOCATION",
+      "mentions": [
+        "schoolroom"
+      ],
+      "description": "A place where Alice learned about geography and measurements.",
+      "chunk_id": 1
+    },
+    {
+      "id": 10,
+      "name": "Latitude",
+      "type": "CONCEPT",
+      "mentions": [
+        "Latitude"
+      ],
+      "description": "A geographical concept Alice references during her fall.",
+      "chunk_id": 1
+    },
+    {
+      "id": 11,
+      "name": "Longitude",
+      "type": "CONCEPT",
+      "mentions": [
+        "Longitude"
+      ],
+      "description": "A geographical concept Alice references during her fall.",
+      "chunk_id": 1
+    },
+    {
+      "id": 12,
+      "name": "New Zealand",
+      "type": "LOCATION",
+      "mentions": [
+        "New Zealand"
+      ],
+      "description": "A country Alice speculates she might be falling into.",
+      "chunk_id": 1
+    },
+    {
+      "id": 13,
+      "name": "Australia",
+      "type": "LOCATION",
+      "mentions": [
+        "Australia"
+      ],
+      "description": "A country Alice speculates she might be falling into.",
+      "chunk_id": 1
+    },
+    {
+      "id": 14,
+      "name": "Center of the Earth",
+      "type": "CONCEPT",
+      "mentions": [
+        "centre of the earth"
+      ],
+      "description": "A concept Alice considers as she falls through the well.",
+      "chunk_id": 1
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice",
+        "she",
+        "her"
+      ],
+      "description": "The protagonist of the story",
+      "chunk_id": 2
+    },
+    {
+      "id": 1,
+      "name": "Dinah",
+      "type": "CREATURE",
+      "mentions": [
+        "Dinah",
+        "Dinah'll",
+        "Dinah my dear",
+        "Dinah was the cat"
+      ],
+      "description": "Alice's cat",
+      "chunk_id": 2
+    },
+    {
+      "id": 2,
+      "name": "White Rabbit",
+      "type": "PERSON",
+      "mentions": [
+        "White Rabbit",
+        "the Rabbit"
+      ],
+      "description": "A character in the story",
+      "chunk_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Passage",
+      "type": "LOCATION",
+      "mentions": [
+        "long passage"
+      ],
+      "description": "A passage Alice is running through",
+      "chunk_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Hall",
+      "type": "LOCATION",
+      "mentions": [
+        "long, low hall"
+      ],
+      "description": "A hall with doors",
+      "chunk_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Door",
+      "type": "OBJECT",
+      "mentions": [
+        "doors",
+        "little door"
+      ],
+      "description": "Doors in the hall, including the small one",
+      "chunk_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Key",
+      "type": "OBJECT",
+      "mentions": [
+        "tiny golden key",
+        "little golden key"
+      ],
+      "description": "A golden key found on the table",
+      "chunk_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Table",
+      "type": "OBJECT",
+      "mentions": [
+        "three-legged table",
+        "little three-legged table"
+      ],
+      "description": "A glass table with the key",
+      "chunk_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Curtain",
+      "type": "OBJECT",
+      "mentions": [
+        "low curtain"
+      ],
+      "description": "A curtain hiding the small door",
+      "chunk_id": 2
+    },
+    {
+      "id": 9,
+      "name": "Bat",
+      "type": "CREATURE",
+      "mentions": [
+        "bat"
+      ],
+      "description": "A creature similar to a mouse",
+      "chunk_id": 2
+    },
+    {
+      "id": 10,
+      "name": "Mouse",
+      "type": "CREATURE",
+      "mentions": [
+        "mice"
+      ],
+      "description": "Small rodents",
+      "chunk_id": 2
+    },
+    {
+      "id": 11,
+      "name": "Milk",
+      "type": "OBJECT",
+      "mentions": [
+        "saucer of milk"
+      ],
+      "description": "Milk for Dinah",
+      "chunk_id": 2
+    },
+    {
+      "id": 12,
+      "name": "Tea-time",
+      "type": "CONCEPT",
+      "mentions": [
+        "tea-time"
+      ],
+      "description": "A time of day when tea is consumed",
+      "chunk_id": 2
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice",
+        "poor Alice"
+      ],
+      "description": "The protagonist of the story, curious and imaginative.",
+      "chunk_id": 3
+    },
+    {
+      "id": 1,
+      "name": "Little Door",
+      "type": "OBJECT",
+      "mentions": [
+        "little door",
+        "door"
+      ],
+      "description": "A small door about fifteen inches high found behind a curtain.",
+      "chunk_id": 3
+    },
+    {
+      "id": 2,
+      "name": "Golden Key",
+      "type": "OBJECT",
+      "mentions": [
+        "tiny golden key",
+        "little golden key"
+      ],
+      "description": "A small key found on the table, used to open the little door.",
+      "chunk_id": 3
+    },
+    {
+      "id": 3,
+      "name": "Passage",
+      "type": "LOCATION",
+      "mentions": [
+        "small passage",
+        "passage"
+      ],
+      "description": "A narrow passage leading to the garden.",
+      "chunk_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "loveliest garden",
+        "garden"
+      ],
+      "description": "A beautiful garden with bright flowers and cool fountains.",
+      "chunk_id": 3
+    },
+    {
+      "id": 5,
+      "name": "Bottle",
+      "type": "OBJECT",
+      "mentions": [
+        "little bottle",
+        "bottle"
+      ],
+      "description": "A bottle labeled 'DRINK ME' found on the table.",
+      "chunk_id": 3
+    },
+    {
+      "id": 6,
+      "name": "Table",
+      "type": "LOCATION",
+      "mentions": [
+        "table"
+      ],
+      "description": "A table where the golden key and bottle were found.",
+      "chunk_id": 3
+    },
+    {
+      "id": 7,
+      "name": "DRINK ME Label",
+      "type": "OBJECT",
+      "mentions": [
+        "DRINK ME",
+        "'DRINK ME'"
+      ],
+      "description": "A label on the bottle instructing the reader to drink its contents.",
+      "chunk_id": 3
+    },
+    {
+      "id": 8,
+      "name": "Shutting Up Like a Telescope",
+      "type": "CONCEPT",
+      "mentions": [
+        "shutting up like a telescope"
+      ],
+      "description": "Alice's wish to shrink like a telescope.",
+      "chunk_id": 3
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist of the story, a curious and imaginative girl.",
+      "chunk_id": 4
+    },
+    {
+      "id": 1,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "garden"
+      ],
+      "description": "A lovely garden that Alice wants to enter through the little door.",
+      "chunk_id": 4
+    },
+    {
+      "id": 2,
+      "name": "Little Door",
+      "type": "OBJECT",
+      "mentions": [
+        "little door"
+      ],
+      "description": "A door leading into the garden, too small for Alice's original size.",
+      "chunk_id": 4
+    },
+    {
+      "id": 3,
+      "name": "Golden Key",
+      "type": "OBJECT",
+      "mentions": [
+        "little golden key"
+      ],
+      "description": "A key needed to open the little door into the garden.",
+      "chunk_id": 4
+    },
+    {
+      "id": 4,
+      "name": "Table",
+      "type": "OBJECT",
+      "mentions": [
+        "table"
+      ],
+      "description": "A table where the golden key is left, too high for Alice to reach in her shrunken state.",
+      "chunk_id": 4
+    },
+    {
+      "id": 5,
+      "name": "Glass Box",
+      "type": "OBJECT",
+      "mentions": [
+        "little glass box"
+      ],
+      "description": "A box under the table containing the 'EAT ME' cake.",
+      "chunk_id": 4
+    },
+    {
+      "id": 6,
+      "name": "EAT ME Cake",
+      "type": "OBJECT",
+      "mentions": [
+        "small cake",
+        "EAT ME"
+      ],
+      "description": "A cake marked with 'EAT ME' in currants that can alter Alice's size.",
+      "chunk_id": 4
+    },
+    {
+      "id": 7,
+      "name": "Currants",
+      "type": "OBJECT",
+      "mentions": [
+        "currants"
+      ],
+      "description": "Fruit used to mark the words 'EAT ME' on the cake.",
+      "chunk_id": 4
+    },
+    {
+      "id": 8,
+      "name": "Shrinking",
+      "type": "CONCEPT",
+      "mentions": [
+        "shutting up like a telescope",
+        "shrink any further"
+      ],
+      "description": "The process of Alice's body size decreasing.",
+      "chunk_id": 4
+    },
+    {
+      "id": 9,
+      "name": "Growing",
+      "type": "CONCEPT",
+      "mentions": [
+        "grow larger",
+        "grow smaller"
+      ],
+      "description": "The potential effect of eating the 'EAT ME' cake to change size.",
+      "chunk_id": 4
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice",
+        "a great girl like you",
+        "poor Alice"
+      ],
+      "description": "The protagonist of the story, a curious and imaginative girl.",
+      "chunk_id": 5
+    },
+    {
+      "id": 1,
+      "name": "Cake",
+      "type": "OBJECT",
+      "mentions": [
+        "small cake",
+        "EAT ME"
+      ],
+      "description": "A magical cake marked with 'EAT ME' in currants that affects size.",
+      "chunk_id": 5
+    },
+    {
+      "id": 2,
+      "name": "Glass Box",
+      "type": "OBJECT",
+      "mentions": [
+        "little glass box"
+      ],
+      "description": "A container holding the magical cake.",
+      "chunk_id": 5
+    },
+    {
+      "id": 3,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "garden"
+      ],
+      "description": "The desired location Alice wants to reach.",
+      "chunk_id": 5
+    },
+    {
+      "id": 4,
+      "name": "Golden Key",
+      "type": "OBJECT",
+      "mentions": [
+        "little golden key"
+      ],
+      "description": "A key that unlocks the garden door.",
+      "chunk_id": 5
+    },
+    {
+      "id": 5,
+      "name": "Garden Door",
+      "type": "LOCATION",
+      "mentions": [
+        "garden door"
+      ],
+      "description": "The door leading to the garden.",
+      "chunk_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Pool of Tears",
+      "type": "LOCATION",
+      "mentions": [
+        "large pool",
+        "pool of tears"
+      ],
+      "description": "A body of water created by Alice's tears.",
+      "chunk_id": 5
+    },
+    {
+      "id": 7,
+      "name": "Alice's Right Foot",
+      "type": "CREATURE",
+      "mentions": [
+        "ALICE'S RIGHT FOOT, ESQ."
+      ],
+      "description": "Alice's foot with a humorous formal address.",
+      "chunk_id": 5
+    },
+    {
+      "id": 8,
+      "name": "Hearthrug",
+      "type": "LOCATION",
+      "mentions": [
+        "HEARTHRUG"
+      ],
+      "description": "A location in the address for Alice's foot.",
+      "chunk_id": 5
+    },
+    {
+      "id": 9,
+      "name": "Fender",
+      "type": "LOCATION",
+      "mentions": [
+        "NEAR THE FENDER"
+      ],
+      "description": "A location near the hearthrug in the address.",
+      "chunk_id": 5
+    },
+    {
+      "id": 10,
+      "name": "Hall",
+      "type": "LOCATION",
+      "mentions": [
+        "hall"
+      ],
+      "description": "The large space where Alice is lying down.",
+      "chunk_id": 5
+    },
+    {
+      "id": 11,
+      "name": "Christmas",
+      "type": "CONCEPT",
+      "mentions": [
+        "every Christmas"
+      ],
+      "description": "A holiday mentioned in Alice's planning.",
+      "chunk_id": 5
+    },
+    {
+      "id": 12,
+      "name": "Boots",
+      "type": "OBJECT",
+      "mentions": [
+        "new pair of boots"
+      ],
+      "description": "Footwear Alice plans to send to her feet.",
+      "chunk_id": 5
+    },
+    {
+      "id": 13,
+      "name": "Carrier",
+      "type": "CONCEPT",
+      "mentions": [
+        "by the carrier"
+      ],
+      "description": "A method of sending gifts to Alice's feet.",
+      "chunk_id": 5
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist, a curious and imaginative girl.",
+      "chunk_id": 6
+    },
+    {
+      "id": 1,
+      "name": "White Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "White Rabbit",
+        "Rabbit"
+      ],
+      "description": "A nervous, time-conscious creature in a hurry.",
+      "chunk_id": 6
+    },
+    {
+      "id": 2,
+      "name": "Duchess",
+      "type": "PERSON",
+      "mentions": [
+        "Duchess"
+      ],
+      "description": "A character mentioned as being impatient and savage.",
+      "chunk_id": 6
+    },
+    {
+      "id": 3,
+      "name": "White Kid Gloves",
+      "type": "OBJECT",
+      "mentions": [
+        "white kid gloves"
+      ],
+      "description": "Gloves dropped by the White Rabbit.",
+      "chunk_id": 6
+    },
+    {
+      "id": 4,
+      "name": "Large Fan",
+      "type": "OBJECT",
+      "mentions": [
+        "large fan"
+      ],
+      "description": "A fan dropped by the White Rabbit.",
+      "chunk_id": 6
+    },
+    {
+      "id": 5,
+      "name": "Hall",
+      "type": "LOCATION",
+      "mentions": [
+        "hall"
+      ],
+      "description": "The location where Alice is sitting and the Rabbit appears.",
+      "chunk_id": 6
+    },
+    {
+      "id": 6,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "garden"
+      ],
+      "description": "A location Alice is trying to view through a small opening.",
+      "chunk_id": 6
+    },
+    {
+      "id": 7,
+      "name": "Pool of Tears",
+      "type": "OBJECT",
+      "mentions": [
+        "pool",
+        "tears"
+      ],
+      "description": "A large pool formed by Alice's crying.",
+      "chunk_id": 6
+    },
+    {
+      "id": 8,
+      "name": "Multiplication Table",
+      "type": "CONCEPT",
+      "mentions": [
+        "Multiplication Table"
+      ],
+      "description": "A mathematical concept Alice tries to recall.",
+      "chunk_id": 6
+    },
+    {
+      "id": 9,
+      "name": "Geography",
+      "type": "CONCEPT",
+      "mentions": [
+        "Geography"
+      ],
+      "description": "A subject Alice attempts to remember.",
+      "chunk_id": 6
+    },
+    {
+      "id": 10,
+      "name": "Poem (Little Crocodile)",
+      "type": "CONCEPT",
+      "mentions": [
+        "How doth the little crocodile"
+      ],
+      "description": "A poem Alice tries to recite, showing her confusion.",
+      "chunk_id": 6
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice",
+        "poor Alice",
+        "dear"
+      ],
+      "description": "The protagonist, a curious and imaginative girl navigating a surreal world.",
+      "chunk_id": 7
+    },
+    {
+      "id": 1,
+      "name": "Mabel",
+      "type": "PERSON",
+      "mentions": [
+        "Mabel"
+      ],
+      "description": "Alice's sister, whom she believes she has been mistaken for.",
+      "chunk_id": 7
+    },
+    {
+      "id": 2,
+      "name": "Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "Rabbit"
+      ],
+      "description": "A character associated with white kid gloves.",
+      "chunk_id": 7
+    },
+    {
+      "id": 3,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "garden"
+      ],
+      "description": "A location Alice desires to reach.",
+      "chunk_id": 7
+    },
+    {
+      "id": 4,
+      "name": "Door",
+      "type": "OBJECT",
+      "mentions": [
+        "little door"
+      ],
+      "description": "A small door that is shut and requires a key to open.",
+      "chunk_id": 7
+    },
+    {
+      "id": 5,
+      "name": "Table",
+      "type": "OBJECT",
+      "mentions": [
+        "table"
+      ],
+      "description": "A surface where the golden key is placed.",
+      "chunk_id": 7
+    },
+    {
+      "id": 6,
+      "name": "Golden Key",
+      "type": "OBJECT",
+      "mentions": [
+        "little golden key"
+      ],
+      "description": "A key needed to open the door.",
+      "chunk_id": 7
+    },
+    {
+      "id": 7,
+      "name": "Fan",
+      "type": "OBJECT",
+      "mentions": [
+        "fan"
+      ],
+      "description": "An object Alice holds that causes her to shrink.",
+      "chunk_id": 7
+    },
+    {
+      "id": 8,
+      "name": "Gloves",
+      "type": "OBJECT",
+      "mentions": [
+        "white kid gloves"
+      ],
+      "description": "Worn by Alice, indicating her shrinking size.",
+      "chunk_id": 7
+    },
+    {
+      "id": 9,
+      "name": "Crocodile",
+      "type": "CREATURE",
+      "mentions": [
+        "crocodile"
+      ],
+      "description": "A creature from the poem Alice attempts to recite.",
+      "chunk_id": 7
+    },
+    {
+      "id": 10,
+      "name": "Nile",
+      "type": "LOCATION",
+      "mentions": [
+        "Nile"
+      ],
+      "description": "A river referenced in the poem about the crocodile.",
+      "chunk_id": 7
+    },
+    {
+      "id": 11,
+      "name": "Lessons",
+      "type": "CONCEPT",
+      "mentions": [
+        "lessons"
+      ],
+      "description": "Tasks Alice fears she must learn if she is Mabel.",
+      "chunk_id": 7
+    },
+    {
+      "id": 12,
+      "name": "Tears",
+      "type": "OBJECT",
+      "mentions": [
+        "tears"
+      ],
+      "description": "Emotional expressions of Alice's frustration.",
+      "chunk_id": 7
+    },
+    {
+      "id": 13,
+      "name": "House",
+      "type": "LOCATION",
+      "mentions": [
+        "poky little house"
+      ],
+      "description": "A small, unappealing residence associated with Mabel.",
+      "chunk_id": 7
+    },
+    {
+      "id": 14,
+      "name": "Toys",
+      "type": "OBJECT",
+      "mentions": [
+        "toys"
+      ],
+      "description": "Items Alice fears she will have few of if she is Mabel.",
+      "chunk_id": 7
+    },
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist of the story, a curious and imaginative girl.",
+      "chunk_id": 8
+    },
+    {
+      "id": 1,
+      "name": "Mouse",
+      "type": "CREATURE",
+      "mentions": [
+        "mouse",
+        "Mouse"
+      ],
+      "description": "A small creature Alice encounters in the pool of tears.",
+      "chunk_id": 8
+    },
+    {
+      "id": 2,
+      "name": "Pool of Tears",
+      "type": "LOCATION",
+      "mentions": [
+        "pool of tears",
+        "pool"
+      ],
+      "description": "A body of water formed from Alice's tears when she was nine feet tall.",
+      "chunk_id": 8
+    },
+    {
+      "id": 3,
+      "name": "Little Door",
+      "type": "OBJECT",
+      "mentions": [
+        "little door"
+      ],
+      "description": "A small door Alice tries to open to escape the pool.",
+      "chunk_id": 8
+    },
+    {
+      "id": 4,
+      "name": "Golden Key",
+      "type": "OBJECT",
+      "mentions": [
+        "golden key"
+      ],
+      "description": "A key that unlocks the little door, lying on the glass table.",
+      "chunk_id": 8
+    }
+  ],
+  "main_locations": [
+    {
+      "id": 10,
+      "name": "Rabbit-Hole",
+      "type": "LOCATION",
+      "mentions": [
+        "rabbit-hole"
+      ],
+      "description": "The entrance Alice took to enter the surreal world.",
+      "chunk_id": 15
+    },
+    {
+      "id": 6,
+      "name": "Hedge",
+      "type": "LOCATION",
+      "mentions": [
+        "hedge"
+      ],
+      "description": "A natural barrier under which the rabbit-hole is located.",
+      "chunk_id": 0
+    },
+    {
+      "id": 7,
+      "name": "Well",
+      "type": "LOCATION",
+      "mentions": [
+        "the bottom of a well"
+      ],
+      "description": "The location where the three sisters lived in the story.",
+      "chunk_id": 34
+    },
+    {
+      "id": 9,
+      "name": "Schoolroom",
+      "type": "LOCATION",
+      "mentions": [
+        "schoolroom"
+      ],
+      "description": "A place where Alice learned about geography and measurements.",
+      "chunk_id": 1
+    },
+    {
+      "id": 12,
+      "name": "New Zealand",
+      "type": "LOCATION",
+      "mentions": [
+        "New Zealand"
+      ],
+      "description": "A country Alice speculates she might be falling into.",
+      "chunk_id": 1
+    },
+    {
+      "id": 13,
+      "name": "Australia",
+      "type": "LOCATION",
+      "mentions": [
+        "Australia"
+      ],
+      "description": "A country Alice speculates she might be falling into.",
+      "chunk_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Passage",
+      "type": "LOCATION",
+      "mentions": [
+        "small passage",
+        "passage"
+      ],
+      "description": "A narrow passage leading to the garden.",
+      "chunk_id": 3
+    },
+    {
+      "id": 5,
+      "name": "Hall",
+      "type": "LOCATION",
+      "mentions": [
+        "hall"
+      ],
+      "description": "The location where Alice is sitting and the Rabbit appears.",
+      "chunk_id": 6
+    },
+    {
+      "id": 8,
+      "name": "Garden",
+      "type": "LOCATION",
+      "mentions": [
+        "garden"
+      ],
+      "description": "A location mentioned in the poem where Alice passes by.",
+      "chunk_id": 51
+    },
+    {
+      "id": 6,
+      "name": "Table",
+      "type": "LOCATION",
+      "mentions": [
+        "table"
+      ],
+      "description": "A table where the golden key and bottle were found.",
+      "chunk_id": 3
+    },
+    {
+      "id": 5,
+      "name": "Garden Door",
+      "type": "LOCATION",
+      "mentions": [
+        "garden door"
+      ],
+      "description": "The door leading to the garden.",
+      "chunk_id": 5
+    },
+    {
+      "id": 2,
+      "name": "Pool of Tears",
+      "type": "LOCATION",
+      "mentions": [
+        "pool of tears",
+        "pool"
+      ],
+      "description": "A body of water formed from Alice's tears when she was nine feet tall.",
+      "chunk_id": 8
+    },
+    {
+      "id": 8,
+      "name": "Hearthrug",
+      "type": "LOCATION",
+      "mentions": [
+        "HEARTHRUG"
+      ],
+      "description": "A location in the address for Alice's foot.",
+      "chunk_id": 5
+    },
+    {
+      "id": 9,
+      "name": "Fender",
+      "type": "LOCATION",
+      "mentions": [
+        "NEAR THE FENDER"
+      ],
+      "description": "A location near the hearthrug in the address.",
+      "chunk_id": 5
+    },
+    {
+      "id": 10,
+      "name": "Nile",
+      "type": "LOCATION",
+      "mentions": [
+        "Nile"
+      ],
+      "description": "A river referenced in the poem about the crocodile.",
+      "chunk_id": 7
+    },
+    {
+      "id": 3,
+      "name": "House",
+      "type": "LOCATION",
+      "mentions": [
+        "house",
+        "the house"
+      ],
+      "description": "The building where the story takes place",
+      "chunk_id": 26
+    },
+    {
+      "id": 7,
+      "name": "Sea",
+      "type": "LOCATION",
+      "mentions": [
+        "sea",
+        "out to sea"
+      ],
+      "description": "The body of water where lobsters and whiting are thrown.",
+      "chunk_id": 49
+    },
+    {
+      "id": 7,
+      "name": "Seaside",
+      "type": "LOCATION",
+      "mentions": [
+        "seaside"
+      ],
+      "description": "A coastal area Alice visited in her past.",
+      "chunk_id": 8
+    },
+    {
+      "id": 9,
+      "name": "Lodging Houses",
+      "type": "LOCATION",
+      "mentions": [
+        "lodging houses"
+      ],
+      "description": "Houses near the seaside where visitors stay.",
+      "chunk_id": 8
+    },
+    {
+      "id": 10,
+      "name": "Railway Station",
+      "type": "LOCATION",
+      "mentions": [
+        "railway station"
+      ],
+      "description": "A transportation hub near the seaside.",
+      "chunk_id": 8
+    }
+  ],
+  "main_characters": [
+    {
+      "id": 0,
+      "name": "Alice",
+      "type": "PERSON",
+      "mentions": [
+        "Alice"
+      ],
+      "description": "The protagonist of the story, a curious and imaginative girl.",
+      "chunk_id": 61
+    },
+    {
+      "id": 2,
+      "name": "White Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "White Rabbit"
+      ],
+      "description": "A nervous, time-conscious creature in Wonderland.",
+      "chunk_id": 61
+    },
+    {
+      "id": 2,
+      "name": "Alice's Sister",
+      "type": "PERSON",
+      "mentions": [
+        "her sister"
+      ],
+      "description": "Alice's sibling who is reading a book.",
+      "chunk_id": 0
+    },
+    {
+      "id": 2,
+      "name": "Rabbit",
+      "type": "CREATURE",
+      "mentions": [
+        "Rabbit"
+      ],
+      "description": "A nervous creature who interrupts Alice's conversation.",
+      "chunk_id": 39
+    },
+    {
+      "id": 1,
+      "name": "Dinah",
+      "type": "PERSON",
+      "mentions": [
+        "Dinah"
+      ],
+      "description": "Alice's cat, mentioned as a figure who might send messages.",
+      "chunk_id": 15
+    },
+    {
+      "id": 9,
+      "name": "Bat",
+      "type": "CREATURE",
+      "mentions": [
+        "bat"
+      ],
+      "description": "A creature similar to a mouse",
+      "chunk_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Mouse",
+      "type": "CREATURE",
+      "mentions": [
+        "Mouse"
+      ],
+      "description": "A frightened creature splashing through a pool.",
+      "chunk_id": 61
+    },
+    {
+      "id": 7,
+      "name": "Alice's Right Foot",
+      "type": "CREATURE",
+      "mentions": [
+        "ALICE'S RIGHT FOOT, ESQ."
+      ],
+      "description": "Alice's foot with a humorous formal address.",
+      "chunk_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Duchess",
+      "type": "PERSON",
+      "mentions": [
+        "Duchess"
+      ],
+      "description": "A character with a pig-baby on her knee in Wonderland.",
+      "chunk_id": 61
+    },
+    {
+      "id": 1,
+      "name": "Mabel",
+      "type": "PERSON",
+      "mentions": [
+        "Mabel"
+      ],
+      "description": "Alice's sister, whom she believes she has been mistaken for.",
+      "chunk_id": 7
+    },
+    {
+      "id": 9,
+      "name": "Crocodile",
+      "type": "CREATURE",
+      "mentions": [
+        "crocodile"
+      ],
+      "description": "A creature from the poem Alice attempts to recite.",
+      "chunk_id": 7
+    },
+    {
+      "id": 3,
+      "name": "Duck",
+      "type": "CREATURE",
+      "mentions": [
+        "Duck"
+      ],
+      "description": "A bird who questions the Mouse's story.",
+      "chunk_id": 10
+    },
+    {
+      "id": 1,
+      "name": "Dodo",
+      "type": "PERSON",
+      "mentions": [
+        "Dodo"
+      ],
+      "description": "A character who organizes the prize distribution and presents the thimble.",
+      "chunk_id": 12
+    },
+    {
+      "id": 2,
+      "name": "Lory",
+      "type": "CREATURE",
+      "mentions": [
+        "Lory"
+      ],
+      "description": "A bird character who comments on the Mouse's behavior.",
+      "chunk_id": 13
+    },
+    {
+      "id": 2,
+      "name": "Eaglet",
+      "type": "CREATURE",
+      "mentions": [
+        "Eaglet"
+      ],
+      "description": "A bird who criticizes the Dodo's use of long words.",
+      "chunk_id": 11
+    },
+    {
+      "id": 7,
+      "name": "Other Birds",
+      "type": "CREATURE",
+      "mentions": [
+        "other birds"
+      ],
+      "description": "A group of birds present during the Caucus-race.",
+      "chunk_id": 11
+    },
+    {
+      "id": 7,
+      "name": "Fury",
+      "type": "CREATURE",
+      "mentions": [
+        "Fury"
+      ],
+      "description": "A character from the Mouse's story, a dog who initiates a trial.",
+      "chunk_id": 12
+    },
+    {
+      "id": 8,
+      "name": "Cur",
+      "type": "CREATURE",
+      "mentions": [
+        "cur"
+      ],
+      "description": "A dog mentioned in the Mouse's story as the defendant in the trial.",
+      "chunk_id": 12
+    },
+    {
+      "id": 3,
+      "name": "Crab",
+      "type": "CREATURE",
+      "mentions": [
+        "Crab",
+        "old Crab",
+        "young Crab"
+      ],
+      "description": "A crab and its daughter, known for their argumentative dialogue.",
+      "chunk_id": 13
+    },
+    {
+      "id": 5,
+      "name": "Magpie",
+      "type": "CREATURE",
+      "mentions": [
+        "Magpie"
+      ],
+      "description": "A bird who leaves after hearing about Dinah.",
+      "chunk_id": 13
+    }
+  ]
+}
